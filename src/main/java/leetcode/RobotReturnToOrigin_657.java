@@ -1,3 +1,5 @@
+package leetcode;
+
 public class RobotReturnToOrigin_657 {
     public static void main(String[] args) {
         String moves = "UD";
