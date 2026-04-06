@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="024c1671-9d6b-4f24-9e58-50275a14c91c" name="Changes" comment="refactor: added leet-code directory">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leet-code/WalkingRobotSimulation_874.java" afterDir="false" />
+    <list default="true" id="024c1671-9d6b-4f24-9e58-50275a14c91c" name="Changes" comment="feat: add .gitignore and pom.xml, rename leet-code files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/WalkingRobotSimulation_874.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/WalkingRobotSimulation_874.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,27 +51,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Sample.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/My Projects/Java/dsa-and-coding/src/main/java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Sample.executor": "Run",
+    "Application.TotalCharsInStrAfterTransformation1_3337.executor": "Run",
+    "Application.WalkingRobotSimulation_874.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/My Projects/Java/dsa-and-coding/src/main/java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\My Projects\Java\dsa-and-coding\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\My Projects\Java\dsa-and-coding\src\main\java\leet-code" />
       <recent name="E:\My Projects\Java\dsa-and-coding\src\main\java" />
+      <recent name="E:\My Projects\Java\dsa-and-coding" />
+      <recent name="E:\My Projects\Java\dsa-and-coding\src\main\java\leet-code" />
     </key>
   </component>
   <component name="RunManager" selected="Application.WalkingRobotSimulation_874">
@@ -160,14 +164,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775509656123</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add .gitignore and pom.xml, rename leet-code files">
+      <option name="closed" value="true" />
+      <created>1775510796701</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775510796701</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: added 657 and 3337" />
     <MESSAGE value="chore: removed sample" />
     <MESSAGE value="refactor: added leet-code directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: added leet-code directory" />
+    <MESSAGE value="feat: add .gitignore and pom.xml, rename leet-code files" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add .gitignore and pom.xml, rename leet-code files" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
