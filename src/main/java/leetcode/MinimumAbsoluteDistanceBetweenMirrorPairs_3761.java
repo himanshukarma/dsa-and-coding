@@ -1,7 +1,6 @@
 package leetcode;
 
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.HashMap;
 
 /**
  * https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/?envType=daily-question&envId=2026-04-17
@@ -15,30 +14,20 @@ public class MinimumAbsoluteDistanceBetweenMirrorPairs_3761 {
     }
 
     public static int minMirrorPairDistance(int[] nums) {
-        Set<Integer> seen = new TreeSet<>();
+        int res = 100000, i = 0;
+        HashMap<Integer, Integer> seen = new HashMap<>();
 
-        for (int i = 0; i < nums.length; i++) {
-            int rev = reverseNumber(nums[i]);
-            for (int j = i + 1; j < nums.length; j++) {
-                if (rev == nums[j]) {
-                    seen.add(Math.abs(i - j));
-                }
-            }
+        for (int n : nums) {
+            int r;
+            if (seen.containsKey(n))
+                res = Math.min(res, i - seen.get(n));
+
+            for (r = 0; n > 0; n /= 10)
+                r = r * 10 + (n % 10);
+
+            seen.put(r, i++);
         }
 
-        if (seen.size() > 0) {
-            return seen.stream().iterator().next();
-        }
-
-        return -1;
-    }
-
-    public static int reverseNumber(int num) {
-        int rev = 0;
-        while (num > 0) {
-            rev = rev * 10 + num % 10;
-            num /= 10;
-        }
-        return rev;
+        return res == 100000 ? -1 : res;
     }
 }
