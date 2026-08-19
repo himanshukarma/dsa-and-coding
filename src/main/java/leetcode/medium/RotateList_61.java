@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.medium;
 
 public class RotateList_61 {
 	public static class ListNode {

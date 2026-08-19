@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.easy;
 
 public class RobotReturnToOrigin_657 {
     public static void main(String[] args) {

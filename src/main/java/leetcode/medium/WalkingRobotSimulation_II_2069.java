@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.medium;
 
 /**
  * https://leetcode.com/problems/walking-robot-simulation-ii/description/?envType=daily-question&envId=2026-04-07

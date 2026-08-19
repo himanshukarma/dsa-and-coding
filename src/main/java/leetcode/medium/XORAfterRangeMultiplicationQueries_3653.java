@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.medium;
 
 /**
  * LeetCode 3653. XOR After Range Multiplication Queries
