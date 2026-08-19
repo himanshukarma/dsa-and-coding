@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.medium;
 
 public class DecodeTheSlantedCiphertext_2075 {
     public static String decodeCiphertext(String encodedText, int rows) {
