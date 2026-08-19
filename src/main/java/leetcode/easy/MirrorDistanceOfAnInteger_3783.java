@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.easy;
 
 public class MirrorDistanceOfAnInteger_3783 {
     public static void main(String[] args) {
