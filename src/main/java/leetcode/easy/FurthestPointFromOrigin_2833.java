@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.easy;
 
 public class FurthestPointFromOrigin_2833 {
     public static void main(String[] args) {
