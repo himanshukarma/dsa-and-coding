@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.hard;
 
 public class MinimumDistanceToTypeAWordUsingTwoFingers_1320 {
     public static void main(String[] args) {
