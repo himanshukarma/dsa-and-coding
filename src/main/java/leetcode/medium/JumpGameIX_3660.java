@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.medium;
 
 public class JumpGameIX_3660 {
 
