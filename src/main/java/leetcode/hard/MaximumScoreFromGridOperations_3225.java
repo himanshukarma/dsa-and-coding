@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.hard;
 
 public class MaximumScoreFromGridOperations_3225 {
 	public static void main(String[] args) {
