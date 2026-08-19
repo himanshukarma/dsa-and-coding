@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.medium;
 
 public class MinimumOperationsToMakeAUniValueGrid_2033 {
     public static void main(String[] args) {
