@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.medium;
 
 public class MaximumDistanceBetweenAPairOfValues_1855 {
     public static void main(String[] args) {
