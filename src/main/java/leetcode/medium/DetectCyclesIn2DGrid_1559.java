@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.medium;
 
 public class DetectCyclesIn2DGrid_1559 {
     static int[][] dirs = { { 0, -1 }, { 0, 1 }, { -1, 0 }, { 1, 0 } };
