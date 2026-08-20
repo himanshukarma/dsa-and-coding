@@ -23,6 +23,6 @@ public class TotalCharsInStrAfterTransformation1_3337 {
             System.out.print(i);
         }
 
-        return 0;
+        return characterList.size();
     }
 }
