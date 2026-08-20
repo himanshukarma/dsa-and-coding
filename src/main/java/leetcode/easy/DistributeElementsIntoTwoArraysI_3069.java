@@ -1,5 +1,6 @@
 package leetcode.easy;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
@@ -8,28 +9,40 @@ import java.util.Arrays;
  * Topics -
  * Array
  * Simulation
+ * 
+ * Runtime: 2ms
  */
 public class DistributeElementsIntoTwoArraysI_3069 {
     public static void main(String[] args) {
-        int[] nums = { 5, 4, 3 };
+        int[] nums = { 5, 4, 3, 8 };
         System.out.println(Arrays.toString(resultArray(nums)));
     }
 
     public static int[] resultArray(int[] nums) {
-        int[] arr1 = new int[nums.length / 2];
-        int[] arr2 = new int[nums.length / 2];
+        ArrayList<Integer> arr1 = new ArrayList<>();
+        ArrayList<Integer> arr2 = new ArrayList<>();
 
-        for (int i = 0; i < nums.length; i++) {
-            if (i % 2 == 0) {
-                arr1[i / 2] = nums[i];
+        arr1.add(nums[0]);
+        arr2.add(nums[1]);
+
+        for (int i = 2; i < nums.length; i++) {
+            if (arr1.get(arr1.size() - 1) > arr2.get(arr2.size() - 1)) {
+                arr1.add(nums[i]);
             } else {
-                arr2[i / 2] = nums[i];
+                arr2.add(nums[i]);
             }
         }
 
-        int[] result = new int[arr1.length + arr2.length];
-        System.arraycopy(arr1, 0, result, 0, arr1.length);
-        System.arraycopy(arr2, 0, result, arr1.length, arr2.length);
+        int[] result = new int[nums.length];
+        int k = 0;
+
+        for (int x : arr1) {
+            result[k++] = x;
+        }
+
+        for (int x : arr2) {
+            result[k++] = x;
+        }
 
         return result;
     }
