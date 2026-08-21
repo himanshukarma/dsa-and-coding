@@ -2,6 +2,14 @@ package leetcode.hard;
 
 import java.util.Arrays;
 
+/**
+ * 
+ * KthSmallestAmountWithSingleDenominationCombination_3116
+ * 
+ * https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/submissions/2115421265/?envType=daily-question&envId=2026-08-21
+ * 
+ * Runtime 11ms
+ */
 public class KthSmallestAmountWithSingleDenominationCombination_3116 {
     public static void main(String[] args) {
         int[] coins = {3, 6, 9};
