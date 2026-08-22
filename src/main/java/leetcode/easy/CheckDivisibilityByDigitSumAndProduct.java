@@ -1,8 +1,16 @@
 package leetcode.easy;
 
+/**
+ * CheckDivisibilityByDigitSumAndProduct
+ * 
+ * https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/description/?envType=daily-question&envId=2026-08-22
+ * 
+ * Runtime: 0ms
+ * Memory: 42.37MB
+ */
 public class CheckDivisibilityByDigitSumAndProduct {
     public static void main(String[] args) {
-        int n = 23;
+        int n = 8;
         System.out.println(checkDivisibility(n));
     }
 
@@ -18,8 +26,6 @@ public class CheckDivisibilityByDigitSumAndProduct {
             n /= 10;
         }
 
-        boolean result = ((sum + product) % digit == 0) ? true : false;
-
-        return result;
+        return digit % (sum + product) == 0;
     }
 }
