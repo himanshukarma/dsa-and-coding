@@ -1,5 +1,13 @@
 package leetcode.medium;
 
+/**
+ * SumGame_1927
+ * 
+ * https://leetcode.com/problems/sum-game/description/
+ * 
+ * Runtime - 8ms
+ * Memory - 47.1MB
+ */
 public class SumGame_1927 {
     public static void main(String[] args) {
         String num = "5?0293??";
