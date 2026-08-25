@@ -4,4 +4,9 @@ public class SmallestMissingMultipleOfK_3718 {
     public static void main(String[] args) {
         System.out.println("Worked");
     }
+
+    public static int missingMultiple(int[] nums, int k) {
+
+        return 0;
+    }
 }
