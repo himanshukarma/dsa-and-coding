@@ -1,5 +1,13 @@
 package leetcode.medium;
 
+/**
+ * ShortestAndLexicographicallySmallestBeautifulString_2904
+ * 
+ * https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string
+ * 
+ * Runtime - 1ms
+ * Memory - 44.06 MB
+ */
 public class ShortestAndLexicographicallySmallestBeautifulString_2904 {
     public static void main(String[] args) {
         System.out.println(shortestBeautifulSubstring("001101", 2)); // Output: "110"
