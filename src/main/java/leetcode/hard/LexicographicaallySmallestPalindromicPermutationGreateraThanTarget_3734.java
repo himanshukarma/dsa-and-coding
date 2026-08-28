@@ -1,5 +1,10 @@
 package leetcode.hard;
 
+/**
+ * LexicographicaallySmallestPalindromicPermutationGreateraThanTarget_3734
+ * 
+ * Runtime - 357ms
+ */
 public class LexicographicaallySmallestPalindromicPermutationGreateraThanTarget_3734 {
     public static void main(String[] args) {
         System.out.println(lexPalindromicPermutation("aabb", "abba")); // Output: "baab"
