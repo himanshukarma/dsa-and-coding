@@ -9,9 +9,10 @@ src/
 └── main/
 	└── java/
 		└── leetcode/
-			├── easy/
-			├── medium/
-			└── hard/
+		|	├── easy/
+		|	├── medium/
+		|	└── hard/
+		└── leetcode75/
 ```
 
 Each solution is kept in its own Java class and uses a package that matches its difficulty directory. Problem titles are reflected in the class names, with the LeetCode problem number included where applicable.
